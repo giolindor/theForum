@@ -1,6 +1,14 @@
+import { useEffect, useState } from "react";
+
 const Footer = () =>
 {
-    return <footer className="overflow-hidden mt-5">
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        setIsVisible(true);
+    }, []);
+
+    return <footer className={`overflow-hidden fixed bottom-5 transition-all duration-1000 ease-in-out ${isVisible ? "opacity-100" : "opacity-0"}`}>
             <div className="animate-infinite-scroll flex">
             {/*First Copy */}
                 <div className="flex items-center gap-8 flex-nowrap shrink-0">
