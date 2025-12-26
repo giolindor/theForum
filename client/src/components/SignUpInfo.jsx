@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import { Link } from 'react-router-dom';
 const SignUpInfo = () => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -10,7 +10,9 @@ const SignUpInfo = () => {
     return (
         <>
         <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-        <h1 className="text-2xl text-stone-900 font-bold font-Inter cursor-pointer" style={{ fontFamily: "Inter", fontWeight: "bold"}}>The Forum.</h1>
+        <Link to="/">
+        <h1 className="text-2xl text-stone-900 font-bold font-Inter cursor-pointer px-8 py-6" style={{ fontFamily: "Inter", fontWeight: "bold"}}>The Forum.</h1>
+        </Link>
         <div className={`flex justify-center mt-[50px] transition-all duration-1000 ease-in-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"}`}>
         <section className="flex flex-col mt-5 shadow-lg rounded-2xl bg-zinc-50 w-[400px] p-4">
             <h2 className="text-2xl text-center ">Sign Up for <span className="font-bold">The Forum.</span></h2>
