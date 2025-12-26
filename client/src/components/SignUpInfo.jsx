@@ -43,12 +43,14 @@ const SignUpInfo = () => {
                     </select>
                 </label>
 
-                <label>Create a password</label>
+                <label>Create a password
                 <input type="password" name="" id="" className="w-[300px] rounded-2xl p-1 shadow-md focus:outline-orange-500 bg-white"/>
-  
+                </label>
+            
                     <input type="checkbox" className="accent-orange-500"/>
                     <label>By Checking This Box, You agree to the <span>Privacy Policy</span> and <span>Terms of Service</span></label>
-                <button className="bg-orange-500 p-1 w-24 rounded-3xl text-white text-lg text-l font-bold cursor-pointer hover:bg-orange-400 transition-all ease-in-out duration-300">Sign Up</button>
+                    <h1>Have an account? <Link to="/login"><span className="text-orange-500 underline">Sign in</span></Link></h1>
+                <button className="mt-8 bg-orange-500 p-1 w-24 rounded-3xl text-white text-lg text-l font-bold cursor-pointer hover:bg-orange-400 transition-all ease-in-out duration-300">Sign Up</button>
             </form>
         </section>
         </div>
