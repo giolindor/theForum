@@ -8,6 +8,10 @@
 }
 
 @theme {
+    --font-helvetica: Helvetica, sans-serif;
+}
+
+@theme {
     --animate-infinite-scroll: infinite-scroll 30s linear infinite;
 }
 
