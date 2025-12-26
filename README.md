@@ -8,11 +8,6 @@ Users can create posts, ask questions, and interact with other students on topic
 
 ## Tech Stack
 - Frontend: React, React Router, Vite, and Tailwind
-- Backend: Express, Prisma, and PostgreSQL
-- Auth: JWT, bcrypt & email verification (Resend)
 
-
-## Setup 
-1. run `docker-compose up -d` (start Postgres)
-2. cd server -> run `npm install` -> then `npm run dev`
-3. cd client -> run `npm install` -> then `npm run dev`
+## 
+- Project is still in development as of 12/26/25 4:03 PM EST 
