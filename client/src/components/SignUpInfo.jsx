@@ -32,6 +32,12 @@ const SignUpInfo = () => {
                     <input type="email" name="" id="" required className="w-[300px] shadow-md rounded-2xl p-1 text-center  focus:outline-orange-500 bg-white"/>
                 </label>
 
+
+                <label className="flex flex-col">
+                    Username
+                    <input type="text" name="" id="" required className="w-[300px] shadow-md rounded-2xl p-1 text-center  focus:outline-orange-500 bg-white"/>
+                </label>
+
                 <label for="major" className="flex flex-col">
                     What's Your Major?
                     <select name="major" id="major" className="w-[300px] rounded-2xl p-1 shadow-md focus:outline-orange-500 bg-white">
